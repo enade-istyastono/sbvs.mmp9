@@ -1,6 +1,8 @@
 # sbvs.mmp9
 A computer program works in the command line interface (CLI) to predict whether a compound is a potentially potent matrix metalloproteinase-9 (MMP9) inhibitor.
-
+<p>
+  This computer program is an output of a research project funded by the Directorate of Research, Technology, and Community Services, the Directorate General of Higher Education, Research, and Technology, the Indonesian Ministry of Education, Culture, Research, and Technology (Contract No. 107/E5/PG.02.00.PL/2024).
+</p>
 <p>
   A computer program works in the command line interface (CLI) to predict whether a compound is a potentially potent MMP9 inhibitor.
 The program works on a machine running Ubuntu 22.04.3 LTS and with AutoDock Vina v1.2.3 (https://autodock-vina.readthedocs.io/en/latest/index.html) and PyPLIF HIPPOS v0.2.0 (https://github.com/radifar/PyPLIF-HIPPOS/releases/tag/0.2.0) installed.
@@ -12,8 +14,4 @@ The program works on a machine running Ubuntu 22.04.3 LTS and with AutoDock Vina
 </p>
 <p>
   Advanced usage: Basically, the sbvs.mmp9 command runs the commands ensplif.mmp9 and dectree.mmp9, subsequently. Therefore, to optimize computer power using parallel software (https://www.gnu.org/software/parallel/), predicting several compounds at once is highly recommended. This can be done by running in parallel the ensplif.mmp9 program and then run the dectree.mmp9 in parallel.  
-</p>
-<p> Funding </p>
-<p>
-  This computer program is an output of a research project funded by the Directorate of Research, Technology, and Community Services, the Directorate General of Higher Education, Research, and Technology, the Indonesian Ministry of Education, Culture, Research, and Technology (Contract No. 107/E5/PG.02.00.PL/2024).
 </p>
